@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">exempleCanviPantalla</string>
+    <string name="label1">Entra el nom:</string>
+    <string name="btnCanvi">Canvia de pantalla</string>
+    <string name="label2">Cognom:</string>
+    <string name="label3" >Edat:</string>
+    <string name="checkboxText">Accepto enviar les meves dades.</string>
+    <string name="warning">No has acceotat enviar les teves dades</string>
+</resources>

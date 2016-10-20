@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_segona_activitat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sabrinapertusatti.exemplecanvipantalla.segonaActivitat">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="55dp"
+        android:id="@+id/labelNom"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelNom"
+        android:layout_toEndOf="@+id/labelNom"
+        android:layout_marginTop="55dp"
+        android:id="@+id/labelCog"
+        android:layout_toRightOf="@+id/labelNom" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="57dp"
+        android:id="@+id/labelEdat"
+        android:layout_below="@+id/labelCog"
+        android:layout_alignLeft="@+id/labelCog"
+        android:layout_alignStart="@+id/labelCog" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelEdat"
+        android:layout_toRightOf="@+id/labelEdat"
+        android:layout_toEndOf="@+id/labelEdat"
+        android:layout_marginLeft="112dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="58dp"
+        android:id="@+id/label5" />
+</RelativeLayout>
